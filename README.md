@@ -35,5 +35,5 @@ $> docker build --target=prod -t reactle:prod -f docker/Dockerfile .
 $> docker run -d -p 80:8080  --name reactle-prod reactle:prod
 ```
 
-Open [http://localhost](http://localhost) in browser. See the [entry in the FAQ](#why-does-sharing-of-results-not-work) below about requirements for sharing of results.
+Open [http://localhost](http://localhost) in browser. 
 
