@@ -31,7 +31,6 @@ export const Questions = (props:Props) => {
   const isGameLost = props.isGameLost;
   const { inputValue, onInputChange } = props;
   const points = props.points;
-  console.log("points",points)
   const attemptsIcons = Array.from({ length: attempts }, (_, index) => (
     <XCircleIcon key={index} className="h-6 w-6 fail-icon" />
   ));
