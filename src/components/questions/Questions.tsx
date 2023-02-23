@@ -40,10 +40,10 @@ export const Questions = (props:Props) => {
   const renderQuestion = (index:any) => {
     const current = questions[index]
     return (
-      <div className='bg-white shadow-2xl rounded p-3 mb-4 inline-block grid grid-cols-1 gap-4 w-full'>
-        <h2 className='text-xl font-bold'>{current.question}</h2>
+      <div className='question-container  shadow-2xl rounded py-8 px-6 mb-4 inline-block grid grid-cols-1 gap-4 w-full'>
+        <h2 className='question-text text-xl font-bold' dangerouslySetInnerHTML={{ __html:current.question}}></h2>
         <form onSubmit= {onEnter}>
-          <input className='shadow appearance-none border rounded py-2 px-3 mr-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' type="text" name="answer"           
+          <input className='shadow appearance-none border rounded py-2 px-3 mr-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' type="text" name="answer" placeholder='Your Answer'          
             value={inputValue}
             onChange={(event) => onInputChange(event.target.value)}/>
           <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline' type="submit"  disabled={isSubmitDisabled}>Submit</button>
@@ -56,9 +56,9 @@ export const Questions = (props:Props) => {
   const renderSuccess = (index:any) => {
     const current = questions[index];
     return (
-      <div className='bg-white shadow-2xl rounded p-3 mb-4 inline-block grid grid-cols-1 gap-4 w-full'>
-        <h2 className='text-xl font-bold'>{current.question}</h2>
-        <form onSubmit={onEnter}>
+      <div className='question-container  shadow-2xl rounded py-8 px-6 mb-4 inline-block grid grid-cols-1 gap-4 w-full'>
+        <h2 className='question-text text-xl font-bold' dangerouslySetInnerHTML={{ __html:current.question}}></h2>
+        <form>
           <input className='shadow appearance-none border rounded py-2 px-3 mr-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' disabled type="text" name="answer" placeholder={current.answer}/>
         </form>
         <p><CheckCircleIcon className="h-6 w-6 m-auto success-icon"/></p>
@@ -68,18 +68,16 @@ export const Questions = (props:Props) => {
 
   const renderResults = () => {
     return (
-      <div className='bg-white shadow-2xl rounded p-3 mb-4 inline-block w-full'>
-        <h2 className='text-xl font-bold'>Results:</h2>
+      <div className='question-container  shadow-2xl rounded py-8 px-6 mb-4 inline-block w-full'>
+        <h2 className='question-text text-xl font-bold'>Results:</h2>
         <p>You got {answers.length} out of {questions.length} correct.</p>
         
         <div>
         {questions.map((question:any, index:any) => (
           <div key={index}>
             <div className='m-2'>
-                {/* <p>{question.question}</p>
-                <p>{question.answer}</p> */}
-                <h2 className='font-bold'>{question.question}</h2>
-                    <form onSubmit={onEnter}>
+                <h2 className='font-bold' dangerouslySetInnerHTML={{ __html:question.question}}></h2>
+                    <form>
                         <input disabled type="text" name="answer" placeholder={question.answer}/>
                     </form>
               { question.answer === answers[index] &&                

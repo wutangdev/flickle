@@ -167,7 +167,15 @@ svg.cursor-pointer:hover {
   border-style: none!important;
 }
 
-*, ::before, ::after {
+.navbar, .navbar::before, .navbar::after {
   border: none!important;
   border-style: none!important;
+}
+
+.question-text {
+  color:#25242c!important;
+}
+
+.question-container {
+  background-color: rgba(245, 245, 249, 0.8);
 }

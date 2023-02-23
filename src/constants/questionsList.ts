@@ -3,7 +3,7 @@ export const QUESTIONS_LIST = [
     id:0,
     questions: [
       {
-        question: 'What flick is this quote from? "One Does Not Simply Walk Into Mordor."',
+        question: 'What flick is this quote from?<br>"One Does Not Simply Walk Into Mordor."',
         answer: 'Lord of the Rings'
       },
       {
@@ -20,7 +20,7 @@ export const QUESTIONS_LIST = [
     id:1,
     questions: [
       {
-        question: 'What flick is this quote from? "Come quick. They\'ve gone wild. The girls have gone wild."',
+        question: 'What flick is this quote from?<br>"Come quick. They\'ve gone wild. The girls have gone wild."',
         answer: 'Mean Girls'
       },
       {
@@ -37,7 +37,7 @@ export const QUESTIONS_LIST = [
     id:2,
     questions: [
       {
-        question: 'What flick is this quote from? "It can\'t be reasoned with. It doesn\'t feel pity, or remorse, or fear. And it absolutely will not stop... ever, until you are dead!"',
+        question: 'What flick is this quote from?<br>"It can\'t be reasoned with. It doesn\'t feel pity, or remorse, or fear. And it absolutely will not stop... ever, until you are dead!"',
         answer: 'Terminator'
       },
       {
@@ -54,7 +54,7 @@ export const QUESTIONS_LIST = [
     id:3,
     questions: [
       {
-        question: 'What flick is this quote from? "A census taker once tried to test me. I ate his Liver With Some Fava Beans And A Nice Chianti."',
+        question: 'What flick is this quote from?<br>"A census taker once tried to test me. I ate his Liver With Some Fava Beans And A Nice Chianti."',
         answer: 'The Silence of the Lambs'
       },
       {
@@ -71,7 +71,7 @@ export const QUESTIONS_LIST = [
     id:4,
     questions: [
       {
-        question: 'What flick is this quote from? "I\' sorry I ruined your black panther party."',
+        question: 'What flick is this quote from?<br>"I\' sorry I ruined your black panther party."',
         answer: 'Forest Gump'
       },
       {
@@ -88,7 +88,7 @@ export const QUESTIONS_LIST = [
     id:5,
     questions: [
       {
-        question: 'What flick is this quote from? "I\'ve seen things you people wouldn\'t believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain."',
+        question: 'What flick is this quote from?<br>"I\'ve seen things you people wouldn\'t believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain."',
         answer: 'Blade Runner'
       },
       {
@@ -105,7 +105,7 @@ export const QUESTIONS_LIST = [
     id:6,
     questions: [
       {
-        question: 'What flick is this quote from? "Here, if you have a milkshake, and I have a milkshake, and I have a straw. There it is, it\'s a straw, you see? Watch it. Now my straw reaches across the room and starts to drink your milkshake. I... drink... your... milkshake. I drink it up!"',
+        question: 'What flick is this quote from?<br>"Here, if you have a milkshake, and I have a milkshake, and I have a straw. There it is, it\'s a straw, you see? Watch it. Now my straw reaches across the room and starts to drink your milkshake. I... drink... your... milkshake. I drink it up!"',
         answer: 'There Will Be Blood'
       },
       {
@@ -122,7 +122,7 @@ export const QUESTIONS_LIST = [
     id:7,
     questions: [
       {
-        question: 'What flick is this quote from? "And I guess that was your accomplice in the wood chipper."',
+        question: 'What flick is this quote from?<br>"And I guess that was your accomplice in the wood chipper."',
         answer: 'Fargo'
       },
       {
@@ -139,7 +139,7 @@ export const QUESTIONS_LIST = [
     id:8,
     questions: [
       {
-        question: 'What flick is this quote from? "What\'s the most you ever lost on a coin toss?"',
+        question: 'What flick is this quote from?<br>"What\'s the most you ever lost on a coin toss?"',
         answer: 'No Country for Old Men'
       },
       {
@@ -156,7 +156,7 @@ export const QUESTIONS_LIST = [
     id:9,
     questions: [
       {
-        question: 'What flick is this quote from? "Our pets heads are falling off!"',
+        question: 'What flick is this quote from?<br>"Our pets heads are falling off!"',
         answer: 'Dumb and Dumber'
       },
       {
@@ -173,7 +173,7 @@ export const QUESTIONS_LIST = [
     id:9,
     questions: [
       {
-        question: 'What flick is this quote from? ""',
+        question: 'What flick is this quote from?<br>""',
         answer: 'answer'
       },
       {
@@ -190,7 +190,7 @@ export const QUESTIONS_LIST = [
     id:9,
     questions: [
       {
-        question: 'What flick is this quote from? ""',
+        question: 'What flick is this quote from?<br>""',
         answer: 'Fargo'
       },
       {
