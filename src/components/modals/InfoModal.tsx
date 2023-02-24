@@ -19,7 +19,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
         <a
-          href="https://github.com/wutangdev/who-said"
+          href="https://github.com/wutangdev/flickle"
           className="font-bold underline"
         >
           Check out the code here.

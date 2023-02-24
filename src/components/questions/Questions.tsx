@@ -69,7 +69,7 @@ export const Questions = (props:Props) => {
   const renderResults = () => {
     return (
       <div className='question-container  shadow-2xl rounded py-8 px-6 mb-4 inline-block w-full'>
-        <h2 className='question-text text-xl font-bold'>Results:</h2>
+        <h2 className='question-text text-2xl film-text'>RESULTS</h2>
         <p>You got {answers.length} out of {questions.length} correct.</p>
         
         <div>
