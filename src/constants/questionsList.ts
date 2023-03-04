@@ -169,38 +169,38 @@ export const QUESTIONS_LIST = [
       },
     ]
   },
-  {
-    id:9,
-    questions: [
-      {
-        question: 'What flick is this quote from?<br>""',
-        answer: 'answer'
-      },
-      {
-        question: 'question',
-        answer: 'answer'
-      },
-      {
-        question: 'question',
-        answer: 'answer'
-      },
-    ]
-  },
-  {
-    id:9,
-    questions: [
-      {
-        question: 'What flick is this quote from?<br>""',
-        answer: 'Fargo'
-      },
-      {
-        question: 'How',
-        answer: 'Funny'
-      },
-      {
-        question: 'Who',
-        answer: 'Ethan'
-      },
-    ]
-  },
+  // {
+  //   id:9,
+  //   questions: [
+  //     {
+  //       question: 'What flick is this quote from?<br>""',
+  //       answer: 'answer'
+  //     },
+  //     {
+  //       question: 'question',
+  //       answer: 'answer'
+  //     },
+  //     {
+  //       question: 'question',
+  //       answer: 'answer'
+  //     },
+  //   ]
+  // },
+  // {
+  //   id:9,
+  //   questions: [
+  //     {
+  //       question: 'What flick is this quote from?<br>""',
+  //       answer: 'Fargo'
+  //     },
+  //     {
+  //       question: 'How',
+  //       answer: 'Funny'
+  //     },
+  //     {
+  //       question: 'Who',
+  //       answer: 'Ethan'
+  //     },
+  //   ]
+  // },
 ]

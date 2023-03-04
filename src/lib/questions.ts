@@ -13,7 +13,7 @@ import { getToday } from './dateutils'
 
 // 1 January 2022 Game Epoch
 // month starts at 0, day starts at 1
-export const firstGameDate = new Date(2023, 1, 22)
+export const firstGameDate = new Date(2023, 2, 4)
 export const periodInDays = 1
 
 export const getLastGameDate = (today: Date) => {
