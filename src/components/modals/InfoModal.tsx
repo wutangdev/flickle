@@ -22,14 +22,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           href="https://github.com/wutangdev/flickle"
           className="font-bold underline"
         >
-          Check out the code here.
+          Check out the repo for this project here.
         </a>
         <br></br>
-      </p>
-
-      <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
-        This is an open source project based off of the {' '}
-        <a href='https://github.com/cwackerfuss/react-wordle' className="font-bold underline">React-Wordle</a> repo.
       </p>
     </BaseModal>
   )
